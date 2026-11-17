@@ -1,0 +1,51 @@
+task,method,n,n_classes,label_counts,top1,within5,mean_rel,min_rel,rule_text
+OpenMP format,Majority (LOO),13,2,"{""OMP-CSR"": 12, ""OMP-ELL"": 1}",92.3,92.3,98.2,76.4,
+OpenMP format,Tree-6 (LOO),13,2,"{""OMP-CSR"": 12, ""OMP-ELL"": 1}",92.3,92.3,98.2,76.4,
+OpenMP format,Tree-10 (LOO),13,2,"{""OMP-CSR"": 12, ""OMP-ELL"": 1}",92.3,92.3,98.2,76.4,
+OpenMP format,Rule (hand-set),13,2,"{""OMP-CSR"": 12, ""OMP-ELL"": 1}",100.0,100.0,100.0,100.0,"irregularity <= 1.5 -> ELL, else CSR"
+OpenMP format,Tree-10 fit on all 13 (in-sample),13,2,"{""OMP-CSR"": 12, ""OMP-ELL"": 1}",100.0,100.0,100.0,100.0,
+MPI partition,Majority (LOO),13,3,"{""MPI-1D-nnz"": 6, ""MPI-2D"": 4, ""MPI-1D-rows"": 3}",46.2,53.8,95.2,86.6,
+MPI partition,Tree-6 (LOO),13,3,"{""MPI-1D-nnz"": 6, ""MPI-2D"": 4, ""MPI-1D-rows"": 3}",30.8,30.8,83.1,37.0,
+MPI partition,Tree-10 (LOO),13,3,"{""MPI-1D-nnz"": 6, ""MPI-2D"": 4, ""MPI-1D-rows"": 3}",46.2,46.2,88.8,47.9,
+MPI partition,Rule (hand-set),13,3,"{""MPI-1D-nnz"": 6, ""MPI-2D"": 4, ""MPI-1D-rows"": 3}",46.2,46.2,93.6,79.1,"CV(nnz/row) >= 0.5 -> 1D equal-nnz, else 1D equal-rows"
+MPI partition,Tree-10 fit on all 13 (in-sample),13,3,"{""MPI-1D-nnz"": 6, ""MPI-2D"": 4, ""MPI-1D-rows"": 3}",100.0,100.0,100.0,100.0,
+GPU kernel (own),Majority (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",53.8,53.8,78.6,21.1,
+GPU kernel (own),Tree-6 (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",92.3,92.3,98.4,79.1,
+GPU kernel (own),Tree-10 (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",100.0,100.0,100.0,100.0,
+GPU kernel (own),Rule (hand-set),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",76.9,76.9,91.7,21.1,"mean nnz/row >= 32 -> vector-CSR, else HYB"
+GPU kernel (own),Tree-10 fit on all 13 (in-sample),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",100.0,100.0,100.0,100.0,
+GPU kernel (+cuSPARSE),Majority (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",53.8,53.8,87.6,43.9,
+GPU kernel (+cuSPARSE),Tree-6 (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",61.5,69.2,92.7,66.9,
+GPU kernel (+cuSPARSE),Tree-10 (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",84.6,84.6,97.7,79.4,
+GPU kernel (+cuSPARSE),Rule (hand-set),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",53.8,53.8,87.6,43.9,always cuSPARSE
+GPU kernel (+cuSPARSE),Tree-10 fit on all 13 (in-sample),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",100.0,100.0,100.0,100.0,
+CPU-side platform (OpenMP vs MPI),Majority (LOO),13,2,"{""MPI"": 12, ""OpenMP"": 1}",92.3,92.3,97.3,64.7,
+CPU-side platform (OpenMP vs MPI),Tree-6 (LOO),13,2,"{""MPI"": 12, ""OpenMP"": 1}",92.3,92.3,97.3,64.7,
+CPU-side platform (OpenMP vs MPI),Tree-10 (LOO),13,2,"{""MPI"": 12, ""OpenMP"": 1}",92.3,92.3,97.3,64.7,
+CPU-side platform (OpenMP vs MPI),Rule (hand-set),13,2,"{""MPI"": 12, ""OpenMP"": 1}",100.0,100.0,100.0,100.0,"nnz < 1e5 -> OpenMP, else MPI"
+CPU-side platform (OpenMP vs MPI),Tree-10 fit on all 13 (in-sample),13,2,"{""MPI"": 12, ""OpenMP"": 1}",100.0,100.0,100.0,100.0,
+Platform (OpenMP/MPI/GPU),Majority (LOO),13,1,"{""GPU"": 13}",100.0,100.0,100.0,100.0,
+Platform (OpenMP/MPI/GPU),Tree-6 (LOO),13,1,"{""GPU"": 13}",100.0,100.0,100.0,100.0,
+Platform (OpenMP/MPI/GPU),Tree-10 (LOO),13,1,"{""GPU"": 13}",100.0,100.0,100.0,100.0,
+Platform (OpenMP/MPI/GPU),Rule (hand-set),13,1,"{""GPU"": 13}",100.0,100.0,100.0,100.0,always GPU
+Platform (OpenMP/MPI/GPU),Tree-10 fit on all 13 (in-sample),13,1,"{""GPU"": 13}",100.0,100.0,100.0,100.0,
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Majority (LOO),13,2,"{""GPU"": 10, ""OpenMP"": 3}",76.9,76.9,90.7,27.8,
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-6 (LOO),13,2,"{""GPU"": 10, ""OpenMP"": 3}",69.2,69.2,90.4,27.8,
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-10 (LOO),13,2,"{""GPU"": 10, ""OpenMP"": 3}",61.5,61.5,88.5,27.8,
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Rule (hand-set),13,2,"{""GPU"": 10, ""OpenMP"": 3}",92.3,100.0,99.8,97.4,"nnz < 1e6 -> OpenMP, else GPU"
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-10 fit on all 13 (in-sample),13,2,"{""GPU"": 10, ""OpenMP"": 3}",100.0,100.0,100.0,100.0,
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Majority (LOO),13,2,"{""GPU"": 12, ""OpenMP"": 1}",92.3,92.3,96.1,49.8,
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-6 (LOO),13,2,"{""GPU"": 12, ""OpenMP"": 1}",92.3,92.3,96.1,49.8,
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-10 (LOO),13,2,"{""GPU"": 12, ""OpenMP"": 1}",92.3,92.3,96.1,49.8,
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Rule (hand-set),13,2,"{""GPU"": 12, ""OpenMP"": 1}",76.9,76.9,93.5,55.2,"nnz < 1e6 -> OpenMP, else GPU"
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-10 fit on all 13 (in-sample),13,2,"{""GPU"": 12, ""OpenMP"": 1}",100.0,100.0,100.0,100.0,
+Overall format+platform (own),Majority (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",53.8,53.8,78.6,21.1,
+Overall format+platform (own),Tree-6 (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",92.3,92.3,98.4,79.1,
+Overall format+platform (own),Tree-10 (LOO),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",100.0,100.0,100.0,100.0,
+Overall format+platform (own),Rule (hand-set),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",76.9,76.9,91.7,21.1,"GPU rule: mean nnz/row >= 32 -> vector-CSR, else HYB"
+Overall format+platform (own),Tree-10 fit on all 13 (in-sample),13,2,"{""GPU-HYB"": 7, ""GPU-vector-CSR"": 6}",100.0,100.0,100.0,100.0,
+Overall format+platform (+cuSPARSE),Majority (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",53.8,53.8,87.6,43.9,
+Overall format+platform (+cuSPARSE),Tree-6 (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",61.5,69.2,92.7,66.9,
+Overall format+platform (+cuSPARSE),Tree-10 (LOO),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",84.6,84.6,97.7,79.4,
+Overall format+platform (+cuSPARSE),Rule (hand-set),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",53.8,53.8,87.6,43.9,always GPU cuSPARSE
+Overall format+platform (+cuSPARSE),Tree-10 fit on all 13 (in-sample),13,3,"{""GPU-cuSPARSE"": 7, ""GPU-HYB"": 4, ""GPU-vector-CSR"": 2}",100.0,100.0,100.0,100.0,

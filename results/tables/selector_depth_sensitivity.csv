@@ -1,0 +1,61 @@
+task,features,depth,top1,within5,mean_rel,min_rel
+OpenMP format,Tree-6,1,92.3,92.3,98.2,76.4
+OpenMP format,Tree-10,1,92.3,92.3,98.2,76.4
+OpenMP format,Tree-6,2,92.3,92.3,98.2,76.4
+OpenMP format,Tree-10,2,92.3,92.3,98.2,76.4
+OpenMP format,Tree-6,3,92.3,92.3,98.2,76.4
+OpenMP format,Tree-10,3,92.3,92.3,98.2,76.4
+MPI partition,Tree-6,1,46.2,46.2,94.8,86.6
+MPI partition,Tree-10,1,53.8,53.8,87.8,47.9
+MPI partition,Tree-6,2,30.8,30.8,83.1,37.0
+MPI partition,Tree-10,2,46.2,46.2,88.8,47.9
+MPI partition,Tree-6,3,38.5,38.5,84.1,37.0
+MPI partition,Tree-10,3,46.2,46.2,88.8,47.9
+GPU kernel (own),Tree-6,1,92.3,92.3,98.4,79.1
+GPU kernel (own),Tree-10,1,100.0,100.0,100.0,100.0
+GPU kernel (own),Tree-6,2,92.3,92.3,98.4,79.1
+GPU kernel (own),Tree-10,2,100.0,100.0,100.0,100.0
+GPU kernel (own),Tree-6,3,92.3,92.3,98.4,79.1
+GPU kernel (own),Tree-10,3,100.0,100.0,100.0,100.0
+GPU kernel (+cuSPARSE),Tree-6,1,69.2,69.2,93.4,71.0
+GPU kernel (+cuSPARSE),Tree-10,1,69.2,69.2,93.4,71.0
+GPU kernel (+cuSPARSE),Tree-6,2,61.5,69.2,92.7,66.9
+GPU kernel (+cuSPARSE),Tree-10,2,84.6,84.6,97.7,79.4
+GPU kernel (+cuSPARSE),Tree-6,3,61.5,69.2,92.7,66.9
+GPU kernel (+cuSPARSE),Tree-10,3,84.6,84.6,97.7,79.4
+CPU-side platform (OpenMP vs MPI),Tree-6,1,92.3,92.3,97.3,64.7
+CPU-side platform (OpenMP vs MPI),Tree-10,1,92.3,92.3,97.3,64.7
+CPU-side platform (OpenMP vs MPI),Tree-6,2,92.3,92.3,97.3,64.7
+CPU-side platform (OpenMP vs MPI),Tree-10,2,92.3,92.3,97.3,64.7
+CPU-side platform (OpenMP vs MPI),Tree-6,3,92.3,92.3,97.3,64.7
+CPU-side platform (OpenMP vs MPI),Tree-10,3,92.3,92.3,97.3,64.7
+Platform (OpenMP/MPI/GPU),Tree-6,1,100.0,100.0,100.0,100.0
+Platform (OpenMP/MPI/GPU),Tree-10,1,100.0,100.0,100.0,100.0
+Platform (OpenMP/MPI/GPU),Tree-6,2,100.0,100.0,100.0,100.0
+Platform (OpenMP/MPI/GPU),Tree-10,2,100.0,100.0,100.0,100.0
+Platform (OpenMP/MPI/GPU),Tree-6,3,100.0,100.0,100.0,100.0
+Platform (OpenMP/MPI/GPU),Tree-10,3,100.0,100.0,100.0,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-6,1,69.2,69.2,90.4,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-10,1,69.2,69.2,90.4,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-6,2,69.2,69.2,90.4,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-10,2,61.5,61.5,88.5,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-6,3,69.2,69.2,90.4,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Tree-10,3,61.5,61.5,88.5,27.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-6,1,92.3,92.3,96.1,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-10,1,92.3,92.3,96.1,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-6,2,92.3,92.3,96.1,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-10,2,92.3,92.3,96.1,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-6,3,92.3,92.3,96.1,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Tree-10,3,92.3,92.3,96.1,49.8
+Overall format+platform (own),Tree-6,1,92.3,92.3,98.4,79.1
+Overall format+platform (own),Tree-10,1,100.0,100.0,100.0,100.0
+Overall format+platform (own),Tree-6,2,92.3,92.3,98.4,79.1
+Overall format+platform (own),Tree-10,2,100.0,100.0,100.0,100.0
+Overall format+platform (own),Tree-6,3,92.3,92.3,98.4,79.1
+Overall format+platform (own),Tree-10,3,100.0,100.0,100.0,100.0
+Overall format+platform (+cuSPARSE),Tree-6,1,69.2,69.2,93.4,71.0
+Overall format+platform (+cuSPARSE),Tree-10,1,69.2,69.2,93.4,71.0
+Overall format+platform (+cuSPARSE),Tree-6,2,61.5,69.2,92.7,66.9
+Overall format+platform (+cuSPARSE),Tree-10,2,84.6,84.6,97.7,79.4
+Overall format+platform (+cuSPARSE),Tree-6,3,61.5,69.2,92.7,66.9
+Overall format+platform (+cuSPARSE),Tree-10,3,84.6,84.6,97.7,79.4

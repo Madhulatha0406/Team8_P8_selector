@@ -1,0 +1,2 @@
+implementation,dataset,size,config,nnz,runs,mean_kernel_ms,std_kernel_ms,min_kernel_ms,max_kernel_ms,mean_total_ms,mean_transfer_ms,mean_gflops,bandwidth_gbs,max_error,speedup_vs_cpu,cusparse_percentage
+cpu_sequential,appu,14000x14000,1_thread,1853104,10,1.833341,0.303397,1.302848,2.272373,1.833341,0.000000,2.081284,12.282087,0.00000000e+00,1.0000,0.00

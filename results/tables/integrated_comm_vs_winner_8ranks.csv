@@ -1,0 +1,14 @@
+matrix_id,min_comm_scheme,fastest_scheme,comm_ratio_max_min,agree
+Goodwin_071,MPI-1D-rows,MPI-1D-rows,21.900312744331508,True
+TSOPF_FS_b39_c19,MPI-1D-rows,MPI-1D-nnz,1.3312450874792583,False
+appu,MPI-2D,MPI-1D-rows,2.333142857142857,False
+av41092,MPI-1D-nnz,MPI-1D-nnz,2.7891128758569197,True
+bbmat,MPI-1D-rows,MPI-1D-nnz,17.52593486127865,False
+bcsstk35,MPI-1D-rows,MPI-1D-nnz,14.11624649859944,False
+mixtank_new,MPI-2D,MPI-1D-nnz,2.064525820342491,False
+ns3Da,MPI-2D,MPI-2D,2.331553509029751,True
+qpband,MPI-1D-rows,MPI-1D-nnz,2.0,False
+soc_sign_slashdot,MPI-1D-rows,MPI-1D-nnz,1.8795963663821706,False
+sparsine,MPI-2D,MPI-1D-nnz,2.2425533333333334,False
+uni_chimera_i4,MPI-2D,MPI-1D-rows,1.3627166666666666,False
+wy2010,MPI-1D-rows,MPI-1D-rows,11.391595454145008,True

@@ -1,0 +1,521 @@
+task,matrix_id,method,true_best,predicted,correct,pct_of_best
+OpenMP format,Goodwin_071,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,TSOPF_FS_b39_c19,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,appu,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,av41092,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bbmat,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bcsstk35,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,mixtank_new,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,ns3Da,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,qpband,Majority (LOO),OMP-ELL,OMP-CSR,0,76.4
+OpenMP format,soc_sign_slashdot,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,sparsine,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,uni_chimera_i4,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,wy2010,Majority (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,Goodwin_071,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,TSOPF_FS_b39_c19,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,appu,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,av41092,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bbmat,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bcsstk35,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,mixtank_new,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,ns3Da,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,qpband,Tree-6 (LOO),OMP-ELL,OMP-CSR,0,76.4
+OpenMP format,soc_sign_slashdot,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,sparsine,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,uni_chimera_i4,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,wy2010,Tree-6 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,Goodwin_071,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,TSOPF_FS_b39_c19,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,appu,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,av41092,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bbmat,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bcsstk35,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,mixtank_new,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,ns3Da,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,qpband,Tree-10 (LOO),OMP-ELL,OMP-CSR,0,76.4
+OpenMP format,soc_sign_slashdot,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,sparsine,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,uni_chimera_i4,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,wy2010,Tree-10 (LOO),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,Goodwin_071,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,TSOPF_FS_b39_c19,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,appu,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,av41092,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bbmat,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,bcsstk35,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,mixtank_new,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,ns3Da,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,qpband,Rule (hand-set),OMP-ELL,OMP-ELL,1,100.0
+OpenMP format,soc_sign_slashdot,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,sparsine,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,uni_chimera_i4,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+OpenMP format,wy2010,Rule (hand-set),OMP-CSR,OMP-CSR,1,100.0
+MPI partition,Goodwin_071,Majority (LOO),MPI-1D-rows,MPI-1D-nnz,0,89.1
+MPI partition,TSOPF_FS_b39_c19,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,appu,Majority (LOO),MPI-2D,MPI-1D-nnz,0,92.1
+MPI partition,av41092,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bbmat,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bcsstk35,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,mixtank_new,Majority (LOO),MPI-2D,MPI-1D-nnz,0,92.4
+MPI partition,ns3Da,Majority (LOO),MPI-1D-rows,MPI-1D-nnz,0,86.6
+MPI partition,qpband,Majority (LOO),MPI-1D-rows,MPI-1D-nnz,0,99.7
+MPI partition,soc_sign_slashdot,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,sparsine,Majority (LOO),MPI-2D,MPI-1D-nnz,0,90.5
+MPI partition,uni_chimera_i4,Majority (LOO),MPI-2D,MPI-1D-nnz,0,87.0
+MPI partition,wy2010,Majority (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,Goodwin_071,Tree-6 (LOO),MPI-1D-rows,MPI-2D,0,47.9
+MPI partition,TSOPF_FS_b39_c19,Tree-6 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,appu,Tree-6 (LOO),MPI-2D,MPI-1D-rows,0,92.3
+MPI partition,av41092,Tree-6 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bbmat,Tree-6 (LOO),MPI-1D-nnz,MPI-2D,0,62.4
+MPI partition,bcsstk35,Tree-6 (LOO),MPI-1D-nnz,MPI-1D-rows,0,94.0
+MPI partition,mixtank_new,Tree-6 (LOO),MPI-2D,MPI-1D-nnz,0,92.4
+MPI partition,ns3Da,Tree-6 (LOO),MPI-1D-rows,MPI-2D,0,76.7
+MPI partition,qpband,Tree-6 (LOO),MPI-1D-rows,MPI-1D-rows,1,100.0
+MPI partition,soc_sign_slashdot,Tree-6 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,sparsine,Tree-6 (LOO),MPI-2D,MPI-1D-nnz,0,90.5
+MPI partition,uni_chimera_i4,Tree-6 (LOO),MPI-2D,MPI-1D-nnz,0,87.0
+MPI partition,wy2010,Tree-6 (LOO),MPI-1D-nnz,MPI-2D,0,37.0
+MPI partition,Goodwin_071,Tree-10 (LOO),MPI-1D-rows,MPI-2D,0,47.9
+MPI partition,TSOPF_FS_b39_c19,Tree-10 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,appu,Tree-10 (LOO),MPI-2D,MPI-1D-rows,0,92.3
+MPI partition,av41092,Tree-10 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bbmat,Tree-10 (LOO),MPI-1D-nnz,MPI-2D,0,62.4
+MPI partition,bcsstk35,Tree-10 (LOO),MPI-1D-nnz,MPI-1D-rows,0,94.0
+MPI partition,mixtank_new,Tree-10 (LOO),MPI-2D,MPI-2D,1,100.0
+MPI partition,ns3Da,Tree-10 (LOO),MPI-1D-rows,MPI-1D-nnz,0,86.6
+MPI partition,qpband,Tree-10 (LOO),MPI-1D-rows,MPI-2D,0,92.0
+MPI partition,soc_sign_slashdot,Tree-10 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,sparsine,Tree-10 (LOO),MPI-2D,MPI-1D-rows,0,79.1
+MPI partition,uni_chimera_i4,Tree-10 (LOO),MPI-2D,MPI-2D,1,100.0
+MPI partition,wy2010,Tree-10 (LOO),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,Goodwin_071,Rule (hand-set),MPI-1D-rows,MPI-1D-nnz,0,89.1
+MPI partition,TSOPF_FS_b39_c19,Rule (hand-set),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,appu,Rule (hand-set),MPI-2D,MPI-1D-rows,0,92.3
+MPI partition,av41092,Rule (hand-set),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bbmat,Rule (hand-set),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,bcsstk35,Rule (hand-set),MPI-1D-nnz,MPI-1D-rows,0,94.0
+MPI partition,mixtank_new,Rule (hand-set),MPI-2D,MPI-1D-nnz,0,92.4
+MPI partition,ns3Da,Rule (hand-set),MPI-1D-rows,MPI-1D-nnz,0,86.6
+MPI partition,qpband,Rule (hand-set),MPI-1D-rows,MPI-1D-rows,1,100.0
+MPI partition,soc_sign_slashdot,Rule (hand-set),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+MPI partition,sparsine,Rule (hand-set),MPI-2D,MPI-1D-rows,0,79.1
+MPI partition,uni_chimera_i4,Rule (hand-set),MPI-2D,MPI-1D-rows,0,83.6
+MPI partition,wy2010,Rule (hand-set),MPI-1D-nnz,MPI-1D-nnz,1,100.0
+GPU kernel (own),Goodwin_071,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),TSOPF_FS_b39_c19,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,21.1
+GPU kernel (own),appu,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,59.2
+GPU kernel (own),av41092,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,37.5
+GPU kernel (own),bbmat,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,71.6
+GPU kernel (own),bcsstk35,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),mixtank_new,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,71.1
+GPU kernel (own),ns3Da,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,61.0
+GPU kernel (own),qpband,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),soc_sign_slashdot,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),sparsine,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),uni_chimera_i4,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),wy2010,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),Goodwin_071,Tree-6 (LOO),GPU-HYB,GPU-vector-CSR,0,79.1
+GPU kernel (own),TSOPF_FS_b39_c19,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),appu,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),av41092,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bbmat,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bcsstk35,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),mixtank_new,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),ns3Da,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),qpband,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),soc_sign_slashdot,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),sparsine,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),uni_chimera_i4,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),wy2010,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),Goodwin_071,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),TSOPF_FS_b39_c19,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),appu,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),av41092,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bbmat,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bcsstk35,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),mixtank_new,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),ns3Da,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),qpband,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),soc_sign_slashdot,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),sparsine,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),uni_chimera_i4,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),wy2010,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),Goodwin_071,Rule (hand-set),GPU-HYB,GPU-vector-CSR,0,79.1
+GPU kernel (own),TSOPF_FS_b39_c19,Rule (hand-set),GPU-vector-CSR,GPU-HYB,0,21.1
+GPU kernel (own),appu,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),av41092,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bbmat,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),bcsstk35,Rule (hand-set),GPU-HYB,GPU-vector-CSR,0,91.8
+GPU kernel (own),mixtank_new,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),ns3Da,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (own),qpband,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),soc_sign_slashdot,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),sparsine,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),uni_chimera_i4,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (own),wy2010,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (+cuSPARSE),Goodwin_071,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),TSOPF_FS_b39_c19,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),appu,Majority (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,72.9
+GPU kernel (+cuSPARSE),av41092,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bbmat,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bcsstk35,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),mixtank_new,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),ns3Da,Majority (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+GPU kernel (+cuSPARSE),qpband,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,43.9
+GPU kernel (+cuSPARSE),soc_sign_slashdot,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),sparsine,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+GPU kernel (+cuSPARSE),uni_chimera_i4,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,81.1
+GPU kernel (+cuSPARSE),wy2010,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+GPU kernel (+cuSPARSE),Goodwin_071,Tree-6 (LOO),GPU-cuSPARSE,GPU-vector-CSR,0,66.9
+GPU kernel (+cuSPARSE),TSOPF_FS_b39_c19,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),appu,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (+cuSPARSE),av41092,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bbmat,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bcsstk35,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),mixtank_new,Tree-6 (LOO),GPU-cuSPARSE,GPU-vector-CSR,0,97.0
+GPU kernel (+cuSPARSE),ns3Da,Tree-6 (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+GPU kernel (+cuSPARSE),qpband,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (+cuSPARSE),soc_sign_slashdot,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),sparsine,Tree-6 (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+GPU kernel (+cuSPARSE),uni_chimera_i4,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (+cuSPARSE),wy2010,Tree-6 (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+GPU kernel (+cuSPARSE),Goodwin_071,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),TSOPF_FS_b39_c19,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),appu,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (+cuSPARSE),av41092,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bbmat,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bcsstk35,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),mixtank_new,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),ns3Da,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+GPU kernel (+cuSPARSE),qpband,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (+cuSPARSE),soc_sign_slashdot,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),sparsine,Tree-10 (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+GPU kernel (+cuSPARSE),uni_chimera_i4,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+GPU kernel (+cuSPARSE),wy2010,Tree-10 (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+GPU kernel (+cuSPARSE),Goodwin_071,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),TSOPF_FS_b39_c19,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),appu,Rule (hand-set),GPU-vector-CSR,GPU-cuSPARSE,0,72.9
+GPU kernel (+cuSPARSE),av41092,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bbmat,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),bcsstk35,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),mixtank_new,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),ns3Da,Rule (hand-set),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+GPU kernel (+cuSPARSE),qpband,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,43.9
+GPU kernel (+cuSPARSE),soc_sign_slashdot,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+GPU kernel (+cuSPARSE),sparsine,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,79.4
+GPU kernel (+cuSPARSE),uni_chimera_i4,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,81.1
+GPU kernel (+cuSPARSE),wy2010,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,90.6
+CPU-side platform (OpenMP vs MPI),Goodwin_071,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),TSOPF_FS_b39_c19,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),appu,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),av41092,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bbmat,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bcsstk35,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),mixtank_new,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),ns3Da,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),qpband,Majority (LOO),OpenMP,MPI,0,64.7
+CPU-side platform (OpenMP vs MPI),soc_sign_slashdot,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),sparsine,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),uni_chimera_i4,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),wy2010,Majority (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),Goodwin_071,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),TSOPF_FS_b39_c19,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),appu,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),av41092,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bbmat,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bcsstk35,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),mixtank_new,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),ns3Da,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),qpband,Tree-6 (LOO),OpenMP,MPI,0,64.7
+CPU-side platform (OpenMP vs MPI),soc_sign_slashdot,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),sparsine,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),uni_chimera_i4,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),wy2010,Tree-6 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),Goodwin_071,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),TSOPF_FS_b39_c19,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),appu,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),av41092,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bbmat,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bcsstk35,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),mixtank_new,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),ns3Da,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),qpband,Tree-10 (LOO),OpenMP,MPI,0,64.7
+CPU-side platform (OpenMP vs MPI),soc_sign_slashdot,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),sparsine,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),uni_chimera_i4,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),wy2010,Tree-10 (LOO),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),Goodwin_071,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),TSOPF_FS_b39_c19,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),appu,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),av41092,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bbmat,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),bcsstk35,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),mixtank_new,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),ns3Da,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),qpband,Rule (hand-set),OpenMP,OpenMP,1,100.0
+CPU-side platform (OpenMP vs MPI),soc_sign_slashdot,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),sparsine,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),uni_chimera_i4,Rule (hand-set),MPI,MPI,1,100.0
+CPU-side platform (OpenMP vs MPI),wy2010,Rule (hand-set),MPI,MPI,1,100.0
+Platform (OpenMP/MPI/GPU),Goodwin_071,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),TSOPF_FS_b39_c19,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),appu,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),av41092,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bbmat,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bcsstk35,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),mixtank_new,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),ns3Da,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),qpband,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),soc_sign_slashdot,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),sparsine,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),uni_chimera_i4,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),wy2010,Majority (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),Goodwin_071,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),TSOPF_FS_b39_c19,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),appu,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),av41092,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bbmat,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bcsstk35,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),mixtank_new,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),ns3Da,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),qpband,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),soc_sign_slashdot,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),sparsine,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),uni_chimera_i4,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),wy2010,Tree-6 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),Goodwin_071,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),TSOPF_FS_b39_c19,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),appu,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),av41092,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bbmat,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bcsstk35,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),mixtank_new,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),ns3Da,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),qpband,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),soc_sign_slashdot,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),sparsine,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),uni_chimera_i4,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),wy2010,Tree-10 (LOO),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),Goodwin_071,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),TSOPF_FS_b39_c19,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),appu,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),av41092,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bbmat,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),bcsstk35,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),mixtank_new,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),ns3Da,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),qpband,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),soc_sign_slashdot,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),sparsine,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),uni_chimera_i4,Rule (hand-set),GPU,GPU,1,100.0
+Platform (OpenMP/MPI/GPU),wy2010,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",qpband,Majority (LOO),OpenMP,GPU,0,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",wy2010,Majority (LOO),OpenMP,GPU,0,75.3
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Majority (LOO),OpenMP,GPU,0,76.2
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bcsstk35,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",sparsine,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",ns3Da,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",av41092,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bbmat,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",appu,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",mixtank_new,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",qpband,Tree-6 (LOO),OpenMP,GPU,0,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",wy2010,Tree-6 (LOO),OpenMP,GPU,0,75.3
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Tree-6 (LOO),OpenMP,OpenMP,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bcsstk35,Tree-6 (LOO),GPU,OpenMP,0,94.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",sparsine,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",ns3Da,Tree-6 (LOO),GPU,OpenMP,0,76.7
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",av41092,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bbmat,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",appu,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",mixtank_new,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",qpband,Tree-10 (LOO),OpenMP,GPU,0,27.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",wy2010,Tree-10 (LOO),OpenMP,GPU,0,75.3
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Tree-10 (LOO),OpenMP,GPU,0,76.2
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bcsstk35,Tree-10 (LOO),GPU,OpenMP,0,94.8
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",sparsine,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",ns3Da,Tree-10 (LOO),GPU,OpenMP,0,76.7
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",av41092,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bbmat,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",appu,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",mixtank_new,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",qpband,Rule (hand-set),OpenMP,OpenMP,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",wy2010,Rule (hand-set),OpenMP,OpenMP,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Rule (hand-set),OpenMP,OpenMP,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Rule (hand-set),GPU,OpenMP,0,97.4
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bcsstk35,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",sparsine,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",ns3Da,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",av41092,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bbmat,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",appu,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",mixtank_new,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",qpband,Majority (LOO),OpenMP,GPU,0,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",wy2010,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bcsstk35,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",sparsine,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",ns3Da,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",av41092,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bbmat,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",appu,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",mixtank_new,Majority (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",qpband,Tree-6 (LOO),OpenMP,GPU,0,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",wy2010,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bcsstk35,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",sparsine,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",ns3Da,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",av41092,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bbmat,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",appu,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",mixtank_new,Tree-6 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",qpband,Tree-10 (LOO),OpenMP,GPU,0,49.8
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",wy2010,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bcsstk35,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",sparsine,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",ns3Da,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",av41092,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bbmat,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",appu,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",mixtank_new,Tree-10 (LOO),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",qpband,Rule (hand-set),OpenMP,OpenMP,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",wy2010,Rule (hand-set),GPU,OpenMP,0,76.4
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",soc_sign_slashdot,Rule (hand-set),GPU,OpenMP,0,83.5
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",uni_chimera_i4,Rule (hand-set),GPU,OpenMP,0,55.2
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bcsstk35,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",sparsine,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",ns3Da,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",av41092,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bbmat,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",Goodwin_071,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",appu,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",TSOPF_FS_b39_c19,Rule (hand-set),GPU,GPU,1,100.0
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",mixtank_new,Rule (hand-set),GPU,GPU,1,100.0
+Overall format+platform (own),Goodwin_071,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),TSOPF_FS_b39_c19,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,21.1
+Overall format+platform (own),appu,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,59.2
+Overall format+platform (own),av41092,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,37.5
+Overall format+platform (own),bbmat,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,71.6
+Overall format+platform (own),bcsstk35,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),mixtank_new,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,71.1
+Overall format+platform (own),ns3Da,Majority (LOO),GPU-vector-CSR,GPU-HYB,0,61.0
+Overall format+platform (own),qpband,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),soc_sign_slashdot,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),sparsine,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),uni_chimera_i4,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),wy2010,Majority (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),Goodwin_071,Tree-6 (LOO),GPU-HYB,GPU-vector-CSR,0,79.1
+Overall format+platform (own),TSOPF_FS_b39_c19,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),appu,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),av41092,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bbmat,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bcsstk35,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),mixtank_new,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),ns3Da,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),qpband,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),soc_sign_slashdot,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),sparsine,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),uni_chimera_i4,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),wy2010,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),Goodwin_071,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),TSOPF_FS_b39_c19,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),appu,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),av41092,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bbmat,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bcsstk35,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),mixtank_new,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),ns3Da,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),qpband,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),soc_sign_slashdot,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),sparsine,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),uni_chimera_i4,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),wy2010,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),Goodwin_071,Rule (hand-set),GPU-HYB,GPU-vector-CSR,0,79.1
+Overall format+platform (own),TSOPF_FS_b39_c19,Rule (hand-set),GPU-vector-CSR,GPU-HYB,0,21.1
+Overall format+platform (own),appu,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),av41092,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bbmat,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),bcsstk35,Rule (hand-set),GPU-HYB,GPU-vector-CSR,0,91.8
+Overall format+platform (own),mixtank_new,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),ns3Da,Rule (hand-set),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (own),qpband,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),soc_sign_slashdot,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),sparsine,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),uni_chimera_i4,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (own),wy2010,Rule (hand-set),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (+cuSPARSE),Goodwin_071,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),TSOPF_FS_b39_c19,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),appu,Majority (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,72.9
+Overall format+platform (+cuSPARSE),av41092,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bbmat,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bcsstk35,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),mixtank_new,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),ns3Da,Majority (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+Overall format+platform (+cuSPARSE),qpband,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,43.9
+Overall format+platform (+cuSPARSE),soc_sign_slashdot,Majority (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),sparsine,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+Overall format+platform (+cuSPARSE),uni_chimera_i4,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,81.1
+Overall format+platform (+cuSPARSE),wy2010,Majority (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+Overall format+platform (+cuSPARSE),Goodwin_071,Tree-6 (LOO),GPU-cuSPARSE,GPU-vector-CSR,0,66.9
+Overall format+platform (+cuSPARSE),TSOPF_FS_b39_c19,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),appu,Tree-6 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (+cuSPARSE),av41092,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bbmat,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bcsstk35,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),mixtank_new,Tree-6 (LOO),GPU-cuSPARSE,GPU-vector-CSR,0,97.0
+Overall format+platform (+cuSPARSE),ns3Da,Tree-6 (LOO),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+Overall format+platform (+cuSPARSE),qpband,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (+cuSPARSE),soc_sign_slashdot,Tree-6 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),sparsine,Tree-6 (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+Overall format+platform (+cuSPARSE),uni_chimera_i4,Tree-6 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (+cuSPARSE),wy2010,Tree-6 (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+Overall format+platform (+cuSPARSE),Goodwin_071,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),TSOPF_FS_b39_c19,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),appu,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (+cuSPARSE),av41092,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bbmat,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bcsstk35,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),mixtank_new,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),ns3Da,Tree-10 (LOO),GPU-vector-CSR,GPU-vector-CSR,1,100.0
+Overall format+platform (+cuSPARSE),qpband,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (+cuSPARSE),soc_sign_slashdot,Tree-10 (LOO),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),sparsine,Tree-10 (LOO),GPU-HYB,GPU-cuSPARSE,0,79.4
+Overall format+platform (+cuSPARSE),uni_chimera_i4,Tree-10 (LOO),GPU-HYB,GPU-HYB,1,100.0
+Overall format+platform (+cuSPARSE),wy2010,Tree-10 (LOO),GPU-HYB,GPU-cuSPARSE,0,90.6
+Overall format+platform (+cuSPARSE),Goodwin_071,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),TSOPF_FS_b39_c19,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),appu,Rule (hand-set),GPU-vector-CSR,GPU-cuSPARSE,0,72.9
+Overall format+platform (+cuSPARSE),av41092,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bbmat,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),bcsstk35,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),mixtank_new,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),ns3Da,Rule (hand-set),GPU-vector-CSR,GPU-cuSPARSE,0,71.0
+Overall format+platform (+cuSPARSE),qpband,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,43.9
+Overall format+platform (+cuSPARSE),soc_sign_slashdot,Rule (hand-set),GPU-cuSPARSE,GPU-cuSPARSE,1,100.0
+Overall format+platform (+cuSPARSE),sparsine,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,79.4
+Overall format+platform (+cuSPARSE),uni_chimera_i4,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,81.1
+Overall format+platform (+cuSPARSE),wy2010,Rule (hand-set),GPU-HYB,GPU-cuSPARSE,0,90.6

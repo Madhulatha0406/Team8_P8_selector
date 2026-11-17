@@ -1,0 +1,14 @@
+dataset,candidate,gflops,config
+qpband,CPU-seq(T7),1.8131,1_thread
+qpband,MPI-1D-nnz,2.2181,ranks1
+qpband,MPI-1D-rows,2.3607,ranks1
+qpband,MPI-2D,2.3774,ranks1
+qpband,OMP-COO,2.2354,thr1_static
+qpband,OMP-CSR,1.7105,thr1_guided
+qpband,OMP-ELL,1.0611,thr1_guided
+wy2010,CPU-seq(T7),0.9943,1_thread
+wy2010,MPI-1D-nnz,1.9471,ranks2
+wy2010,MPI-1D-rows,1.8884,ranks4
+wy2010,MPI-2D,1.7144,ranks1
+wy2010,OMP-COO,1.8067,thr1_static
+wy2010,OMP-CSR,0.9349,thr1_static

@@ -1,0 +1,14 @@
+matrix_id,1,2,5,10,20,50,100
+qpband,OpenMP,OpenMP,OpenMP,OpenMP,OpenMP,GPU,GPU
+wy2010,OpenMP,OpenMP,OpenMP,GPU,GPU,GPU,GPU
+soc_sign_slashdot,OpenMP,OpenMP,OpenMP,GPU,GPU,GPU,GPU
+uni_chimera_i4,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+bcsstk35,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+sparsine,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+ns3Da,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+av41092,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+bbmat,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+Goodwin_071,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+appu,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+TSOPF_FS_b39_c19,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU
+mixtank_new,OpenMP,OpenMP,GPU,GPU,GPU,GPU,GPU

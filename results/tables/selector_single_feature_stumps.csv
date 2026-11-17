@@ -1,0 +1,91 @@
+task,feature,threshold,left_class,right_class,train_top1,loo_top1,loo_within5,loo_mean_rel
+CPU-side platform (OpenMP vs MPI),nnz,236293.0,OpenMP,MPI,100.0,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),mean_nnz_row,3.605,OpenMP,MPI,100.0,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),std_nnz_row,1.631,OpenMP,MPI,100.0,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),bandwidth,17704.0,MPI,MPI,92.308,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),irregularity,1.57,OpenMP,MPI,100.0,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),cv_nnz_row,0.234,OpenMP,MPI,100.0,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),rel_bandwidth,0.753,MPI,MPI,92.308,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),density,0.0,MPI,MPI,92.308,92.308,92.308,97.288
+CPU-side platform (OpenMP vs MPI),max_nnz_row,10.5,OpenMP,MPI,100.0,84.615,84.615,96.449
+CPU-side platform (OpenMP vs MPI),rows,20207.0,MPI,MPI,92.308,84.615,84.615,93.577
+GPU kernel (+cuSPARSE),std_nnz_row,12.694,GPU-HYB,GPU-cuSPARSE,84.615,76.923,76.923,94.098
+GPU kernel (+cuSPARSE),irregularity,1.87,GPU-HYB,GPU-cuSPARSE,69.231,61.538,61.538,92.329
+GPU kernel (+cuSPARSE),max_nnz_row,59.0,GPU-HYB,GPU-cuSPARSE,76.923,61.538,61.538,92.191
+GPU kernel (+cuSPARSE),nnz,1614293.5,GPU-HYB,GPU-cuSPARSE,69.231,53.846,61.538,89.461
+GPU kernel (+cuSPARSE),rows,25185.5,GPU-vector-CSR,GPU-cuSPARSE,69.231,53.846,53.846,85.668
+GPU kernel (+cuSPARSE),cv_nnz_row,0.776,GPU-HYB,GPU-cuSPARSE,61.538,46.154,53.846,87.138
+GPU kernel (+cuSPARSE),density,0.003,GPU-cuSPARSE,GPU-vector-CSR,69.231,46.154,46.154,84.724
+GPU kernel (+cuSPARSE),rel_bandwidth,0.999,GPU-cuSPARSE,GPU-vector-CSR,61.538,38.462,38.462,78.514
+GPU kernel (+cuSPARSE),mean_nnz_row,74.437,GPU-cuSPARSE,GPU-vector-CSR,69.231,30.769,38.462,77.616
+GPU kernel (+cuSPARSE),bandwidth,20549.0,GPU-vector-CSR,GPU-cuSPARSE,61.538,23.077,23.077,74.391
+GPU kernel (own),std_nnz_row,30.033,GPU-HYB,GPU-vector-CSR,100.0,100.0,100.0,100.0
+GPU kernel (own),nnz,1614293.5,GPU-HYB,GPU-vector-CSR,92.308,92.308,92.308,98.395
+GPU kernel (own),max_nnz_row,94.0,GPU-HYB,GPU-vector-CSR,76.923,61.538,61.538,85.574
+GPU kernel (own),rows,45546.0,GPU-vector-CSR,GPU-HYB,76.923,61.538,61.538,83.304
+GPU kernel (own),bandwidth,78120.0,GPU-vector-CSR,GPU-HYB,69.231,61.538,61.538,83.304
+GPU kernel (own),irregularity,2.216,GPU-HYB,GPU-vector-CSR,76.923,61.538,61.538,81.305
+GPU kernel (own),mean_nnz_row,36.536,GPU-HYB,GPU-vector-CSR,84.615,53.846,53.846,82.566
+GPU kernel (own),density,0.001,GPU-HYB,GPU-vector-CSR,84.615,53.846,53.846,82.566
+GPU kernel (own),cv_nnz_row,0.518,GPU-HYB,GPU-vector-CSR,76.923,46.154,46.154,78.462
+GPU kernel (own),rel_bandwidth,0.999,GPU-HYB,GPU-vector-CSR,76.923,38.462,38.462,70.587
+MPI partition,irregularity,2.534,MPI-2D,MPI-1D-nnz,76.923,69.231,69.231,91.449
+MPI partition,bandwidth,20549.0,MPI-1D-rows,MPI-1D-nnz,69.231,53.846,53.846,95.59
+MPI partition,density,0.002,MPI-1D-nnz,MPI-2D,61.538,46.154,53.846,94.441
+MPI partition,mean_nnz_row,57.278,MPI-1D-nnz,MPI-2D,61.538,46.154,53.846,94.426
+MPI partition,nnz,236293.0,MPI-1D-rows,MPI-1D-nnz,53.846,38.462,53.846,94.808
+MPI partition,rows,30097.0,MPI-1D-rows,MPI-1D-nnz,61.538,38.462,38.462,93.38
+MPI partition,cv_nnz_row,0.644,MPI-2D,MPI-1D-nnz,69.231,38.462,38.462,86.351
+MPI partition,rel_bandwidth,0.753,MPI-1D-rows,MPI-1D-nnz,53.846,30.769,38.462,94.209
+MPI partition,max_nnz_row,94.0,MPI-1D-rows,MPI-1D-nnz,61.538,23.077,23.077,79.514
+MPI partition,std_nnz_row,105.469,MPI-1D-nnz,MPI-1D-nnz,46.154,15.385,15.385,81.644
+OpenMP format,nnz,236293.0,OMP-ELL,OMP-CSR,100.0,92.308,92.308,98.187
+OpenMP format,mean_nnz_row,3.605,OMP-ELL,OMP-CSR,100.0,92.308,92.308,98.187
+OpenMP format,std_nnz_row,1.631,OMP-ELL,OMP-CSR,100.0,92.308,92.308,98.187
+OpenMP format,bandwidth,17704.0,OMP-CSR,OMP-CSR,92.308,92.308,92.308,98.187
+OpenMP format,irregularity,1.57,OMP-ELL,OMP-CSR,100.0,92.308,92.308,98.187
+OpenMP format,cv_nnz_row,0.234,OMP-ELL,OMP-CSR,100.0,92.308,92.308,98.187
+OpenMP format,rel_bandwidth,0.753,OMP-CSR,OMP-CSR,92.308,92.308,92.308,98.187
+OpenMP format,density,0.0,OMP-CSR,OMP-CSR,92.308,92.308,92.308,98.187
+OpenMP format,rows,20207.0,OMP-CSR,OMP-CSR,92.308,84.615,84.615,94.119
+OpenMP format,max_nnz_row,10.5,OMP-ELL,OMP-CSR,100.0,84.615,84.615,93.493
+Overall format+platform (+cuSPARSE),std_nnz_row,12.694,GPU-HYB,GPU-cuSPARSE,84.615,76.923,76.923,94.098
+Overall format+platform (+cuSPARSE),irregularity,1.87,GPU-HYB,GPU-cuSPARSE,69.231,61.538,61.538,92.329
+Overall format+platform (+cuSPARSE),max_nnz_row,59.0,GPU-HYB,GPU-cuSPARSE,76.923,61.538,61.538,92.191
+Overall format+platform (+cuSPARSE),nnz,1614293.5,GPU-HYB,GPU-cuSPARSE,69.231,53.846,61.538,89.461
+Overall format+platform (+cuSPARSE),rows,25185.5,GPU-vector-CSR,GPU-cuSPARSE,69.231,53.846,53.846,85.668
+Overall format+platform (+cuSPARSE),cv_nnz_row,0.776,GPU-HYB,GPU-cuSPARSE,61.538,46.154,53.846,87.138
+Overall format+platform (+cuSPARSE),density,0.003,GPU-cuSPARSE,GPU-vector-CSR,69.231,46.154,46.154,84.724
+Overall format+platform (+cuSPARSE),rel_bandwidth,0.999,GPU-cuSPARSE,GPU-vector-CSR,61.538,38.462,38.462,78.514
+Overall format+platform (+cuSPARSE),mean_nnz_row,74.437,GPU-cuSPARSE,GPU-vector-CSR,69.231,30.769,38.462,77.616
+Overall format+platform (+cuSPARSE),bandwidth,20549.0,GPU-vector-CSR,GPU-cuSPARSE,61.538,23.077,23.077,74.391
+Overall format+platform (own),std_nnz_row,30.033,GPU-HYB,GPU-vector-CSR,100.0,100.0,100.0,100.0
+Overall format+platform (own),nnz,1614293.5,GPU-HYB,GPU-vector-CSR,92.308,92.308,92.308,98.395
+Overall format+platform (own),max_nnz_row,94.0,GPU-HYB,GPU-vector-CSR,76.923,61.538,61.538,85.574
+Overall format+platform (own),rows,45546.0,GPU-vector-CSR,GPU-HYB,76.923,61.538,61.538,83.304
+Overall format+platform (own),bandwidth,78120.0,GPU-vector-CSR,GPU-HYB,69.231,61.538,61.538,83.304
+Overall format+platform (own),irregularity,2.216,GPU-HYB,GPU-vector-CSR,76.923,61.538,61.538,81.305
+Overall format+platform (own),mean_nnz_row,36.536,GPU-HYB,GPU-vector-CSR,84.615,53.846,53.846,82.566
+Overall format+platform (own),density,0.001,GPU-HYB,GPU-vector-CSR,84.615,53.846,53.846,82.566
+Overall format+platform (own),cv_nnz_row,0.518,GPU-HYB,GPU-vector-CSR,76.923,46.154,46.154,78.462
+Overall format+platform (own),rel_bandwidth,0.999,GPU-HYB,GPU-vector-CSR,76.923,38.462,38.462,70.587
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",rows,53010.5,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",nnz,1784828.0,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",mean_nnz_row,31.537,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",std_nnz_row,19.855,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",max_nnz_row,94.0,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",bandwidth,7540.5,OpenMP,GPU,100.0,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",irregularity,2.071,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",cv_nnz_row,0.518,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",rel_bandwidth,0.352,OpenMP,GPU,100.0,92.308,92.308,96.137
+"Platform @R=10 (OpenMP vs GPU, incl. transfer)",density,0.001,GPU,GPU,92.308,92.308,92.308,96.137
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",bandwidth,14493.5,OpenMP,GPU,92.308,76.923,76.923,94.018
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",nnz,1784828.0,GPU,OpenMP,92.308,76.923,76.923,92.256
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",rows,17000.0,OpenMP,GPU,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",mean_nnz_row,107.321,GPU,OpenMP,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",std_nnz_row,301.594,GPU,OpenMP,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",max_nnz_row,20079.5,GPU,OpenMP,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",irregularity,764.724,GPU,OpenMP,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",density,0.007,GPU,OpenMP,84.615,76.923,76.923,90.714
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",cv_nnz_row,10.443,GPU,OpenMP,84.615,69.231,69.231,88.463
+"Platform @R=5 (OpenMP vs GPU, incl. transfer)",rel_bandwidth,0.999,GPU,OpenMP,84.615,61.538,61.538,88.101

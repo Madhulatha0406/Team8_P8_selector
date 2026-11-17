@@ -1,0 +1,91 @@
+### OpenMP format
+label counts: {'OMP-CSR': 12, 'OMP-ELL': 1}
+|--- cv_nnz_row <= 0.23
+|   |--- weights: [0.00, 1.00] class: OMP-ELL
+|--- cv_nnz_row >  0.23
+|   |--- weights: [12.00, 0.00] class: OMP-CSR
+
+
+### MPI partition
+label counts: {'MPI-1D-nnz': 6, 'MPI-2D': 4, 'MPI-1D-rows': 3}
+|--- irregularity <= 2.53
+|   |--- rel_bandwidth <= 0.83
+|   |   |--- weights: [0.00, 2.00, 0.00] class: MPI-1D-rows
+|   |--- rel_bandwidth >  0.83
+|   |   |--- weights: [0.00, 0.00, 4.00] class: MPI-2D
+|--- irregularity >  2.53
+|   |--- density <= 0.00
+|   |   |--- weights: [6.00, 0.00, 0.00] class: MPI-1D-nnz
+|   |--- density >  0.00
+|   |   |--- weights: [0.00, 1.00, 0.00] class: MPI-1D-rows
+
+
+### GPU kernel (own)
+label counts: {'GPU-HYB': 7, 'GPU-vector-CSR': 6}
+|--- std_nnz_row <= 30.03
+|   |--- weights: [7.00, 0.00] class: GPU-HYB
+|--- std_nnz_row >  30.03
+|   |--- weights: [0.00, 6.00] class: GPU-vector-CSR
+
+
+### GPU kernel (+cuSPARSE)
+label counts: {'GPU-cuSPARSE': 7, 'GPU-HYB': 4, 'GPU-vector-CSR': 2}
+|--- std_nnz_row <= 12.69
+|   |--- weights: [4.00, 0.00, 0.00] class: GPU-HYB
+|--- std_nnz_row >  12.69
+|   |--- rows <= 25185.50
+|   |   |--- weights: [0.00, 0.00, 2.00] class: GPU-vector-CSR
+|   |--- rows >  25185.50
+|   |   |--- weights: [0.00, 7.00, 0.00] class: GPU-cuSPARSE
+
+
+### CPU-side platform (OpenMP vs MPI)
+label counts: {'MPI': 12, 'OpenMP': 1}
+|--- cv_nnz_row <= 0.23
+|   |--- weights: [0.00, 1.00] class: OpenMP
+|--- cv_nnz_row >  0.23
+|   |--- weights: [12.00, 0.00] class: MPI
+
+
+### Platform (OpenMP/MPI/GPU)
+label counts: {'GPU': 13}
+|--- weights: [13.00] class: 0
+
+
+### Platform @R=5 (OpenMP vs GPU, incl. transfer)
+label counts: {'GPU': 10, 'OpenMP': 3}
+|--- nnz <= 1784828.00
+|   |--- weights: [9.00, 0.00] class: GPU
+|--- nnz >  1784828.00
+|   |--- nnz <= 1986320.50
+|   |   |--- weights: [0.00, 3.00] class: OpenMP
+|   |--- nnz >  1986320.50
+|   |   |--- weights: [1.00, 0.00] class: GPU
+
+
+### Platform @R=10 (OpenMP vs GPU, incl. transfer)
+label counts: {'GPU': 12, 'OpenMP': 1}
+|--- bandwidth <= 7540.50
+|   |--- weights: [0.00, 1.00] class: OpenMP
+|--- bandwidth >  7540.50
+|   |--- weights: [12.00, 0.00] class: GPU
+
+
+### Overall format+platform (own)
+label counts: {'GPU-HYB': 7, 'GPU-vector-CSR': 6}
+|--- std_nnz_row <= 30.03
+|   |--- weights: [7.00, 0.00] class: GPU-HYB
+|--- std_nnz_row >  30.03
+|   |--- weights: [0.00, 6.00] class: GPU-vector-CSR
+
+
+### Overall format+platform (+cuSPARSE)
+label counts: {'GPU-cuSPARSE': 7, 'GPU-HYB': 4, 'GPU-vector-CSR': 2}
+|--- std_nnz_row <= 12.69
+|   |--- weights: [4.00, 0.00, 0.00] class: GPU-HYB
+|--- std_nnz_row >  12.69
+|   |--- rows <= 25185.50
+|   |   |--- weights: [0.00, 0.00, 2.00] class: GPU-vector-CSR
+|   |--- rows >  25185.50
+|   |   |--- weights: [0.00, 7.00, 0.00] class: GPU-cuSPARSE
+
